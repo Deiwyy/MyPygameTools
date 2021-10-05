@@ -1,9 +1,6 @@
 import pygame
 from window import Window
 import sys
-
-# Manually import all of your scenes like this, and add them to `self.scenes`
-# Remember to initialize the scene in the constructor
 from scene import Scene
 
 
@@ -33,11 +30,9 @@ class Mainloop:
 		self.running = False
 
 	def change_scene(self, scene):
-		# Changes the scene to the self.scenes[scene] by name
 		self.current_scene_name = scene
 
 	def get_window(self):
-		# Returns the window object
 		return self.window
 
 

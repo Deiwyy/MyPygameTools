@@ -17,7 +17,6 @@ class Window:
 		return (self.width, self.height)
 
 	def get(self):
-		# Returns the window itself (Window) what pygame.display.set_mode returns 
 		return self.window
 
 	def draw(self, surfaces):
@@ -30,6 +29,5 @@ class Window:
 				self.window.blit(s, (s.get_rect().x, s.get_rect().y))
 
 	def clear(self, color):
-		# Clears the window / fills the window with a color
 		self.window.fill(color)
 		pygame.display.update()
