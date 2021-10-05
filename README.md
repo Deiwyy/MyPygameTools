@@ -1,2 +1,4 @@
 # MyPygameTools
-A set of tools I'm making. They are absolutelly shit.
+A set of tools I'm making. 
+
+Feel free to use, but I don't think you should, I can't even code.
