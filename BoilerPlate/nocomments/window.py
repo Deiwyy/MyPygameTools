@@ -27,7 +27,8 @@ class Window:
 				surfaces = [surfaces]
 			for s in surfaces:
 				self.window.blit(s, (s.get_rect().x, s.get_rect().y))
+		pygame.display.update()
 
 	def clear(self, color):
 		self.window.fill(color)
-		pygame.display.update()
+		
