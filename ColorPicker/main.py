@@ -8,7 +8,7 @@ ALLOWED_FILE_TYPES = ('jpg', 'png')
 CURRENT_SPRITE = None
 WINDOW = pygame.display.set_mode((600, 600))
 FONT = pygame.font.SysFont('Calibri', 32)
-NO_SPRITE_MESSAGE = FONT.render('No image loaded', True, (0, 0, 0))
+NO_SPRITE_MESSAGE = FONT.render('No image loaded. Drag and drop one here', True, (0, 0, 0))
 
 def main():
 	global CURRENT_SPRITE
